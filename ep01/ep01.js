@@ -44,9 +44,32 @@ var ctx;
 //==================================================================
 // função principal
 
-function main() {
+class Obj2D {
 
+    constructor(width, height, posX, posY) {
+        this.width = width;
+        this.height = height;
+        this.posX = posX;
+        this.posY = posY;
+    }
+}
+
+function main() {
+    initCanvas();
+}
+
+function initCanvas() {
     const canvas = document.getElementById('meucanvas');
     ctx = canvas.getContext('2d');
-    if (!ctx) alert("Não consegui abrir o contexto 2d :-( ");
+
+    if (!ctx) {
+        alert("Não consegui abrir o contexto 2d :-( ");
+    } else {
+        window.onresize = callbackResizeCanvas;
+    }
+}
+
+function callbackResizeCanvas() {
+    ctx.canvas.width = window.innerWidth;
+    ctx.canvas.height = window.innerHeight;
 }
