@@ -1,0 +1,33 @@
+NOME: Lucas Moretto da Silva
+NUSP: 9778602
+
+Introdução
+
+O projeto representa um jogo de pescaria implementado em javascript.
+Ao clicar no botão jogar, serão criados 16 peixes com com proprieades aleatórias.
+
+O objetivo do jogador é acertar todos os peixes com as bolhas do arpão. O arpão é representado
+por um triângulo preto na parte inferior da tela (praia).
+
+Instruções:
+
+    Arpão:
+        1 - pressione "A" para mover o arpão para a esquerda
+          - pressione "D" para mover o arpão para a direita
+          - pressione "S" para atirar uma bolha
+
+        2 - mova o ponteiro do mouse para dentro da região praia (região verde na parte inferior do canvas),
+            assim, o arpão acompanhara seu movimento com o mouse.
+          - realize um clique com o botão esquerdo do mouse dentro da região da praia para atirar uma bolha
+
+Horas de Trabalho
+    Semana de 10/04 - 16/04: 5h
+    Semana de 17/04 - 23/04: 3h
+    Semana de 25/04 - 29/04: 2h
+    Total: 10h
+
+Dificuldades
+    Tive dificuldades em aproximar o desenho dos círculos. O calculo não era tão trivial
+    de ser realizado. Garantir que estava certo levou um certo tempo.
+
+    Fora isso, não tive outros problemas.

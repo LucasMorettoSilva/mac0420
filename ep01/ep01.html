@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
     <head>
         <meta charset="utf-8">
-        <title>EP01 - MAC0420/MAC5744</title>
+        <title>EP01 - Lucas Moretto da Silva</title>
         <link rel="stylesheet" href="./ep01.css" type="text/css">
+        <script type="text/javascript" src="https://livejs.com/live.js"></script>
         <script src="ep01.js" defer></script>
     </head>
 
     <body>
         <h3>EP01 - MAC0420/MAC5744 - Pescaria</h3>
+
         <hr>
-        <!-- comentários -->
-        <canvas id="meucanvas" width="100%" height="100%">
-            Opa! parece que seu navegador não suporta o canvas do HTML5.
+
+        <input id="play-button" class="styled" type="button" value="Jogar" />
+        <input id="tick-button" class="styled" type="button" value="Passo" />
+        <input id="velocity-range" type="range" value="1" min="1" max="10" step="1" name="Vermelho" />
+
+        <label>Velocidade</label>
+
+        <hr>
+
+        <canvas id="meucanvas" width="200" height="200">
+            Opa! pode parece que seu navegador não suporta o canvas do HTML5.
         </canvas>
+        <hr>
     </body>
 
 </html>
